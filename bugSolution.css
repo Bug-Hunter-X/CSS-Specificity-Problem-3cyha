@@ -1,0 +1,12 @@
+The solution is to add a class to the paragraph element and style that class. This increases specificity so the intended color is applied.
+
+```css
+div {
+  color: blue;
+}
+
+div p.special {
+  color: red; /*This will override the parent's color*/
+}
+```
+Now the paragraph with the class "special" will correctly have red text.
