@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an issue with specificity and inheritance.  The intent is to style the paragraph inside the div, but the specificity of the parent div selector overrides the specificity of the paragraph selector, resulting in the paragraph not inheriting the desired color.
